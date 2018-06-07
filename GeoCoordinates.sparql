@@ -1,0 +1,23 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+		#defaultView:Map
+		SELECT ?category ?categoryLabel ?place ?placeLabel ?image ?website ?dist ?location (?categoryLabel as ?layer) WHERE {
+          wd:Q6715 wdt:P625 ?Heidenau .
+		  SERVICE wikibase:around {
+		    ?place wdt:P625 ?location.
+		    bd:serviceParam wikibase:center ?Heidenau.
+		    bd:serviceParam wikibase:radius "0.5".
+		    bd:serviceParam wikibase:distance ?dist.
+		  }
+		  ?place wdt:P31 ?category.
+		  OPTIONAL {
+		    ?place wdt:P18 ?image.
+		  }
+		  OPTIONAL {
+		    ?place wdt:P856 ?website.
+		  }
+		  SERVICE wikibase:label {
+		    bd:serviceParam wikibase:language "en".
+		    ?place rdfs:label ?placeLabel.
+		    ?category rdfs:label ?categoryLabel.
+		  }
+		}
