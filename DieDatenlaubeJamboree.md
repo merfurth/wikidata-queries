@@ -1,8 +1,9 @@
 ### DieDatenlaubeJamboree
 
 ### LNdS Walk
-* getting ready to wirte
-* focus & planning
-* collecting and organizing materials
-* writing a rough draft
-* editing
+1. getting ready to wirte
+2. focus & planning
+3. collecting and organizing materials
+4. structure
+5. writing a rough draft
+6. editing
