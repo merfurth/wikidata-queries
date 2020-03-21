@@ -26,4 +26,4 @@ In der [Inhaltsübersicht](https://de.wikisource.org/wiki/Die_Gartenlaube_(1898)
 
 Nachdem wir nun einen Artikel https://de.wikisource.org/wiki/Allerei_von_Reinecke angelegt haben, wird es Zeit, diesen auch in Wikidata anzulegen, um ihn am Ende mit weiteren Metadaten anreichern können. Dazu klicken wir auf "[Create a new item](https://www.wikidata.org/wiki/Special:NewItem)"
 
-![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_new_item.jpg "Create a new item for Die Gartenlaube")
+![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Wikidata.jpg "Create a new item for Die Gartenlaube")
