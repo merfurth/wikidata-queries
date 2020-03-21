@@ -18,8 +18,12 @@ Mit dem Klick auf das Pfeilsymbol "/\" bzw. den Wikisource-Link mit einem "Index
 
 ![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Index.jpg "Indexseite der Gartenlaube 1898")
 
-In der Inhaltsübersicht zur Gartenlaube 1898 können wir nun der schwarzen Text "Allerlei von Reinecke" in einen roten Link verwandeln, in dem wir den Seitenquelltext bearbeiten und um die Zeichenkette "[[Allerlei von Reinecke]]" zweimal eckige Klammern setzen. Durch Klick auf den roten Link dann, wird letztlich ein neuer Artikel angelegt (_TODO_: Suche vorher, ob es schon einen solchen Artikel gibt). Im Quelltext werden dabei zwei Arten von Wikitemplates verwendet: 1) {{GartenlaubenArtikel ... }} dieses Template beschreibt die Navigation der Seite und 2) zwischen {{BlockSatzStart}} und {{BlockSatzEnd}} stehen Templates für das Einbinden der korrekturgelesenen Seiten (mit ihren jeweiligen Sections): in unserem Fall nur {{SeitePR|0_b|Die Gartenlaube (1898) 0000 b.jpg|2}}
+In der [Inhaltsübersicht](https://de.wikisource.org/wiki/Die_Gartenlaube_(1898)) zur **Gartenlaube 1898** können wir nun der schwarzen Text "Allerlei von Reinecke" in einen roten Link verwandeln, in dem wir den Seitenquelltext bearbeiten und um die Zeichenkette "[[Allerlei von Reinecke]]" zweimal eckige Klammern setzen. Durch Klick auf den roten Link dann, wird letztlich ein neuer Artikel angelegt (_TODO_: Suche vorher, ob es schon einen solchen Artikel gibt). Im Quelltext werden dabei zwei Arten von Wikitemplates verwendet: 1) {{GartenlaubenArtikel ... }} dieses Template beschreibt die Navigation der Seite und 2) zwischen {{BlockSatzStart}} und {{BlockSatzEnd}} stehen Templates für das Einbinden der korrekturgelesenen Seiten (mit ihren jeweiligen Sections): in unserem Fall nur {{SeitePR|0_b|Die Gartenlaube (1898) 0000 b.jpg|2}}
 
 ![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Seite_Edit.jpg "Editieren des Artikels Allerlei von Reineke in der Gartenlaube 1898 durch vorheriges Copy & Paste der Templateinfos")
 
 ## Wikidata-Artikel prüfen und anlegen
+
+Nachdem wir nun einen Artikel https://de.wikisource.org/wiki/Allerei_von_Reinecke angelegt haben, wird es Zeit, diesen auch in Wikidata anzulegen, um ihn am Ende mit weiteren Metadaten anreichern können. Dazu klicken wir auf "[Create a new item](https://www.wikidata.org/wiki/Special:NewItem)"
+
+![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_new_item.jpg "Create a new item for Die Gartenlaube")
