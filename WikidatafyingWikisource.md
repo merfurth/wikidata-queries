@@ -31,3 +31,7 @@ Nachdem wir nun einen Artikel https://de.wikisource.org/wiki/Allerei_von_Reineck
 Ein Wikidata-Artikel zeichnet sich durch eine Anzahl von Aussagen (statements) über verschiedene Eigenschaften (properties) und Vermerke (qualifiers) dazu aus. Im Fall von Artikeln zu "Die Datenlaube" sind dies vorallem die folgenden: der Artikel wurde publiziert in Die Gartenlaube (Item Q655617), Autor (soweit zuordenbar) und Veröffentlichungsdatum (Property:P577).
 
 ![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Wikidata_Edit.jpg "Edit a item for Die Gartenlaube")
+
+Über die Linking-Box "Wikisource" lässt sich zu guter Letzt der in Wikisource angelegte Artikel verlinken. Ein zentrales Thema (Property P:921 sollte zu den Metadaten eines Wikidata-Artikels ebenfalls vergeben werden, um spätere Auswertungen zu ermöglichen.
+
+![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Wikidata_Linking.jpg "Link a item for Die Gartenlaube")
