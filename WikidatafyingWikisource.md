@@ -6,6 +6,17 @@ Unter dem [Link](https://de.wikisource.org/wiki/Die_Gartenlaube_(1898)) (de.wiki
 
 ![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Wikisource.jpg "Die Gartenlaube 1898 auf de.wikisource.org")
 
-## Artikel korrekturlesen, neuen Wikisourcea-Artikel anlegen bzw. verlinken
+## Artikel korrekturlesen, neuen Wikisource-Artikel anlegen bzw. verlinken
+
+Folgt man dem [Link](https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1898)_0000_b.jpg) auf Seite 0_b kommen wir zu den korrigierbaren Einzelseiten eines Wikisource-Werkes. Da noch ein weiterer Korrekturdurchgang nötig ist, klicken wir in der Seitenmenüleiste oben auf (Lesen | **Bearbeiten** | Versionsgeschichte).
+
+![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Seite_0000_b.jpg "Wikisource-Seite bearbeiten")
+
+Nach der Korrektur von Fehlern kann unten der Seitenstatus auf /* Fertig */ (grüne Checkbox) geändert werden. Zu Beachten ist hier die korrekte Verwendung von Abschnittsmarkern <section begin=2 /> und <section end=2 /> für unseren späteren Artikel *Allerlei von Reinecke*.
+
+Mit dem Klick auf das Pfeilsymbol "/\" bzw. den Wikisource-Link mit einem "Index:Die_Gartenlaube_(1898)" sind weitere zu korrigierende Seiten in gelb (wenig Änderungen) bzw. rot (viele Änderungen) aufgelistet und die uns später in den Sog des Editieren ziehen werden :)
+
+![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Index.jpg "Indexseite der Gartenlaube 1898")
+
 
 ## Wikidata-Artikel prüfen und anlegen
