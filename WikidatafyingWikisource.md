@@ -12,11 +12,14 @@ Folgt man dem [Link](https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1898)
 
 ![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Seite_0000_b.jpg "Wikisource-Seite bearbeiten")
 
-Nach der Korrektur von Fehlern kann unten der Seitenstatus auf /* Fertig */ (grüne Checkbox) geändert werden. Zu Beachten ist hier die korrekte Verwendung von Abschnittsmarkern <section begin=2 /> und <section end=2 /> für unseren späteren Artikel *Allerlei von Reinecke*.
+Nach der Korrektur von Fehlern kann unten der Seitenstatus auf /* Fertig */ (grüne Checkbox) geändert werden. Zu Beachten ist hier die korrekte Verwendung von Abschnittsmarkern ```<section begin=2 />``` und ```<section end=2 />``` für unseren späteren Artikel *Allerlei von Reinecke*.
 
-Mit dem Klick auf das Pfeilsymbol "/\" bzw. den Wikisource-Link mit einem "Index:Die_Gartenlaube_(1898)" sind weitere zu korrigierende Seiten in gelb (wenig Änderungen) bzw. rot (viele Änderungen) aufgelistet und die uns später in den Sog des Editieren ziehen werden :)
+Mit dem Klick auf das Pfeilsymbol "/\" bzw. den Wikisource-Link mit einem "Index:Die_Gartenlaube_(1898)" sind weitere zu korrigierende Seiten in gelb (wenig Änderungen) bzw. rot (viele Änderungen) aufgelistet und diese werden uns später in den Sog des Editieren ziehen :)
 
 ![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Index.jpg "Indexseite der Gartenlaube 1898")
 
+In der Inhaltsübersicht zur Gartenlaube 1898 können wir nun der schwarzen Text "Allerlei von Reinecke" in einen roten Link verwandeln, in dem wir den Seitenquelltext bearbeiten und um die Zeichenkette "[[Allerlei von Reinecke]]" zweimal eckige Klammern setzen. Durch Klick auf den roten Link dann, wird letztlich ein neuer Artikel angelegt (_TODO_: Suche vorher, ob es schon einen solchen Artikel gibt).
+
+![alt-text](https://github.com/merfurth/wikidata-queries/blob/master/Pictures/Die_Gartenlaube_1898_Seite_Edit.jpg "Editieren des Artikels Allerlei von Reineke in der Gartenlaube 1898 durch vorheriges Copy & Paste der Templateinfos")
 
 ## Wikidata-Artikel prüfen und anlegen
